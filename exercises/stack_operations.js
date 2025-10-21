@@ -18,6 +18,6 @@ console.log("Initial Stack:", stack);
 pushItem(stack, "A");
 pushItem(stack, "B");
 console.log("After Push:", stack);
-console.log("Peek:", peek(stack));
-console.log("Pop:", popItem(stack));
-console.log("Stack now:", stack);
+console.log("Peek:", peek(stack)); // Shows the top element without removing it.
+console.log("Pop:", popItem(stack)); // Removes and prints the top element 'B'.
+console.log("Stack now:", stack); // Prints the final state of the stack 'A'.
